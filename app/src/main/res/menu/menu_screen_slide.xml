@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main">
+
+    <!-- Adds an item to the list. -->
+
+    <item
+        android:id="@+id/btnInfo"
+        android:icon="@drawable/ic_info"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="@string/items1"
+        android:visible="false"
+
+
+        ></item>
+    <item
+        android:id="@+id/btnMoreImage"
+        android:icon="@drawable/ic_mms"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:title="@string/items3"
+        android:visible="false"
+
+
+        ></item>
+    <item
+        android:id="@+id/btnGlossary"
+        android:icon="@drawable/glosario"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="@string/items4"
+
+        ></item>
+    <item
+        android:id="@+id/action_previous"
+        android:showAsAction="always|withText"
+        android:title="@string/action_previous" />
+
+</menu>

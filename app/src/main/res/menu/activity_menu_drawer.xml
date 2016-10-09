@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/option0">
+        <menu>
+
+            <item
+                android:id="@+id/nav_option0_1"
+                android:icon="@drawable/suelos"
+                android:title="@string/option0_1" />
+            <item
+                android:id="@+id/nav_option0_2"
+                android:icon="@drawable/abono"
+                android:title="@string/option0_2" />
+            <item
+                android:id="@+id/nav_option0_3"
+                android:icon="@drawable/plagas"
+                android:title="@string/option0_3" />
+            <item
+                android:id="@+id/nav_option0_4"
+                android:icon="@drawable/glosario"
+                android:title="@string/option0_4" />
+            <item
+                android:id="@+id/nav_option0_5"
+                android:icon="@drawable/bibliografias"
+                android:title="@string/option0_5" />
+
+        </menu>
+    </item>
+    <item android:title="@string/option1">
+        <menu>
+
+            <item
+                android:id="@+id/nav_option1_1"
+                android:icon="@drawable/nuevas_t"
+                android:title="@string/option1_1" />
+            <item
+                android:id="@+id/nav_option1_2"
+                android:icon="@drawable/nuevas_t"
+                android:title="@string/option1_2" />
+            <item
+                android:id="@+id/nav_option1_3"
+                android:icon="@drawable/nuevas_t"
+                android:title="@string/option1_3" />
+
+
+        </menu>
+    </item>
+    <item android:title="@string/option2">
+        <menu>
+            <item
+                android:id="@+id/nav_option2_1"
+                android:icon="@drawable/ic_face"
+                android:title="@string/option2_1" />
+
+        </menu>
+    </item>
+</menu>

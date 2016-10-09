@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.FragmentList_Text">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ExtraText">
+        tools:context="{relativePackage}.${activityClass}" >
+
+        <!-- Editext para busqueda  -->
+        <EditText
+            android:id="@+id/inputSearchText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:hint="@string/search_glossary"
+            android:layout_margin="@dimen/fab_margin"
+            android:inputType="textVisiblePassword" />
+
+        <!-- List View de elementos  -->
+
+        <ListView
+            android:id="@+id/listText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            tools:ignore="RtlHardcoded"
+            android:layout_below="@+id/inputSearchText"></ListView>
+    </RelativeLayout>
+
+</FrameLayout>

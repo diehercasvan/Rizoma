@@ -1,0 +1,395 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Rizoma</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="option0">Agricultura urbana</string>
+    <string name="option1">Tecnologías amigables</string>
+    <string name="option0_1">Suelo</string>
+    <string name="option0_2">Abonos</string>
+    <string name="option0_3">Plagas</string>
+    <string name="option0_4">Glosario</string>
+    <string name="option0_5">Bibliografía</string>
+    <string name="option1_1">Residuos sólidos</string>
+    <string name="option1_2">Tizas</string>
+    <string name="option1_3">Recirculadora D-C</string>
+    <string name="option2">Información general </string>
+    <string name="option2_1">Créditos</string>
+
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: LoremIpsum</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
+    //Menu items
+    <string name="items1">Information</string>
+    <string name="items2">Signpost</string>
+    <string name="items3">More content</string>
+    <string name="items4">Tools</string>
+
+    //ListView Image
+    <string name="search_plague">Buscar plaga...</string>
+    <string name="search_glossary">Buscar palabra...</string>
+
+
+    //String Colors
+    <string-array name="colors">
+        <item>#000000</item>
+        <item>#000080</item>
+        <item>#00008B</item>
+        <item>#0000CD</item>
+        <item>#0000FF</item>
+        <item>#006400</item>
+        <item>#008000</item>
+        <item>#008080</item>
+        <item>#008B8B</item>
+        <item>#00BFFF</item>
+        <item>#00CED1</item>
+        <item>#00FA9A</item>
+        <item>#00FF00</item>
+        <item>#00FF7F</item>
+        <item>#00FFFF</item>
+        <item>#00FFFF</item>
+        <item>#191970</item>
+        <item>#1E90FF</item>
+        <item>#20B2AA</item>
+        <item>#228B22</item>
+        <item>#2E8B57</item>
+        <item>#2F4F4F</item>
+        <item>#32CD32</item>
+        <item>#3CB371</item>
+        <item>#40E0D0</item>
+        <item>#4169E1</item>
+        <item>#4682B4</item>
+        <item>#483D8B</item>
+        <item>#48D1CC</item>
+        <item>#4B0082</item>
+        <item>#556B2F</item>
+        <item>#5F9EA0</item>
+        <item>#6495ED</item>
+        <item>#66CDAA</item>
+        <item>#696969</item>
+        <item>#6A5ACD</item>
+        <item>#6B8E23</item>
+        <item>#708090</item>
+        <item>#778899</item>
+        <item>#7B68EE</item>
+        <item>#7CFC00</item>
+        <item>#7FFF00</item>
+        <item>#7FFFD4</item>
+        <item>#800000</item>
+        <item>#800080</item>
+        <item>#808000</item>
+        <item>#808080</item>
+        <item>#87CEEB</item>
+        <item>#87CEFA</item>
+        <item>#8A2BE2</item>
+        <item>#8B0000</item>
+        <item>#8B008B</item>
+        <item>#8B4513</item>
+        <item>#8FBC8F</item>
+        <item>#90EE90</item>
+        <item>#9370DB</item>
+        <item>#9400D3</item>
+        <item>#98FB98</item>
+        <item>#9932CC</item>
+        <item>#9ACD32</item>
+        <item>#A0522D</item>
+        <item>#A52A2A</item>
+        <item>#A9A9A9</item>
+        <item>#ADD8E6</item>
+        <item>#ADFF2F</item>
+        <item>#AFEEEE</item>
+        <item>#B0C4DE</item>
+        <item>#B0E0E6</item>
+        <item>#B22222</item>
+        <item>#B8860B</item>
+        <item>#BA55D3</item>
+        <item>#BC8F8F</item>
+        <item>#BDB76B</item>
+        <item>#C0C0C0</item>
+        <item>#C71585</item>
+        <item>#CD5C5C</item>
+        <item>#CD853F</item>
+        <item>#D2691E</item>
+        <item>#D2B48C</item>
+        <item>#D3D3D3</item>
+        <item>#D8BFD8</item>
+        <item>#DA70D6</item>
+        <item>#DAA520</item>
+        <item>#DB7093</item>
+        <item>#DC143C</item>
+        <item>#DCDCDC</item>
+        <item>#DDA0DD</item>
+        <item>#DEB887</item>
+        <item>#E0FFFF</item>
+        <item>#E6E6FA</item>
+        <item>#E9967A</item>
+        <item>#EE82EE</item>
+        <item>#EEE8AA</item>
+        <item>#F08080</item>
+        <item>#F0E68C</item>
+        <item>#F0F8FF</item>
+        <item>#F0FFF0</item>
+        <item>#F0FFFF</item>
+        <item>#F4A460</item>
+        <item>#F5DEB3</item>
+        <item>#F5F5DC</item>
+        <item>#F5F5F5</item>
+        <item>#F5FFFA</item>
+        <item>#F8F8FF</item>
+        <item>#FA8072</item>
+        <item>#FAEBD7</item>
+        <item>#FAF0E6</item>
+        <item>#FAFAD2</item>
+        <item>#FDF5E6</item>
+        <item>#FF0000</item>
+        <item>#FF00FF</item>
+        <item>#FF00FF</item>
+        <item>#FF1493</item>
+        <item>#FF4500</item>
+        <item>#FF6347</item>
+        <item>#FF69B4</item>
+        <item>#FF7F50</item>
+        <item>#FF8C00</item>
+        <item>#FFA07A</item>
+        <item>#FFA500</item>
+        <item>#FFB6C1</item>
+        <item>#FFC0CB</item>
+        <item>#FFD700</item>
+        <item>#FFDAB9</item>
+        <item>#FFDEAD</item>
+        <item>#FFE4B5</item>
+        <item>#FFE4C4</item>
+        <item>#FFE4E1</item>
+        <item>#FFEBCD</item>
+        <item>#FFEFD5</item>
+        <item>#FFF0F5</item>
+        <item>#FFF5EE</item>
+        <item>#FFF8DC</item>
+        <item>#FFFACD</item>
+        <item>#FFFAF0</item>
+        <item>#FFFAFA</item>
+        <item>#FFFF00</item>
+        <item>#FFFFE0</item>
+        <item>#FFFFF0</item>
+        <item>#FFFFFF</item>
+    </string-array>
+
+    <string-array name="title">
+        <item>Afido o pulgón</item>
+        <item>Babosa</item>
+        <item>Barrenador</item>
+        <item>Cogollero</item>
+        <item>Hormiga arriera</item>
+        <item>Mosca blanca</item>
+        <item>Gusano</item>
+        <item>Gusano de mazorca</item>
+        <item>Nematodo</item>
+        <item>Chiza o Mojojoy</item>
+        <item>Polilla</item>
+    </string-array>
+
+    //String Suelo
+    <string name="titleSuelo">Suelo</string>
+    <string name="titlePhase1">Fase sólida</string>
+    <string name="titlePhase2">Fase líquida y gaseosa</string>
+    <string name="titlePhase3">Química del suelo</string>
+
+    //String Suelo
+    <string name="fertilizers">Abonos</string>
+    <string name="fertilizers1">Compostaje</string>
+    <string name="fertilizers2">Lombri-compost</string>
+    <string name="fertilizers3">Abono foliar* de orín humano</string>
+    <string name="Suelo">El suelo es el soporte de la vida en la tierra, es el mundo mineral en una relación dinámica con el reino vegetal y animal. La ciencia que estudia los suelos se conoce como Pedología* y la rama que estudia la fertilidad y economía hídrica del suelo es la edafología*. Está compuesto en un 50\u0025 de materia sólida y 50\u0025 de poros, que se presentan en tres fases, a continuación.</string>
+    <string name="Fase1">Es la materia orgánica de naturaleza coloidal* que se descompone como humus, insumo primordial para la nutrición de las plantas. El suelo se describe por la aireación, la temperatura y el pH, y según la economía hídrica*, que puede variar entre arcilloso, arenoso, franco y/o limoso.</string>
+    <string name="Fase2">Los poros del suelo corresponden a un 50\u0025 de aire (O2) y 50\u0025 de agua (H2O), y su ausencia o exceso pueden ocasionar asfixia radicular*, lo que limita la respiración de las raíces de las plantas.</string>
+    <string name="Fase3">La cual se remite a el intercambio químico de los minerales disponibles, dada la capacidad de retener y liberar cationes* (C.I.C)*, por la adsorción de los nutrientes en el agua del suelo, para ser absorbidos por las plantas por medio de las raíces. Se evalúa por el nivel del pH que deriva entre la salinidad del suelo que lo hace alcalino por la deficiencia de agua para absorber los nutrientes por la planta y la abundancia de agua que lava los nutrientes del suelo que no son absorbidos por las raíces y lo hace acido.</string>
+
+   <string name="Abonos">
+La pérdida de nutrientes y materia orgánica en el suelo debe ser restituida en forma de abono. A continuación veremos algunas opciones para su elaboración.
+</string>
+<string name="Compostaje">
+Insumos:
+\n•\t2 kilos de tierra.
+\n•\t2 baldes con tapa.
+\n•\tDesechos orgánicos.
+\n•\tManguera.
+\n Instrucciones:
+\n En un balde se pone una primera capa, compuesta por desechos de origen vegetal como hojas secas y tierra; luego se cubre con una capa de desechos orgánicos limpios, es decir, sin síntomas de descomposición y que no hayan pasado por cocción; otra capa de material vegetal, y se va llenando recogiendo los desechos de la cocina por cuatro semanas. Este es un proceso biológico aeróbico por lo que los microorganismos requieren aireación para descomponer la materia orgánica, por ello se debe usar una o dos mangueras que comuniquen el interior del balde con el exterior evitando la contaminación de agentes externos como las moscas.
+</string>
+<string name="Lombri_compost">
+Insumos: \n
+•\t2 canastillas (plásticas) con fondo enmallado o perforado.\n
+•\t1 canastilla hermética (sin perforaciones) con tapa.\n
+•\t2 bloques de ladrillo.\n
+•\tHumus.\n
+•\tLombriz roja californiana.\n
+Instrucciones: \n
+Las tres canastillas se pondrán una sobre la otra de forma vertical, de manera que se necesita llenar la capacidad de las dos canastillas perforadas con humus*, que estarán dispuestas en el nivel superior, poniendo la tapa sobre la primera para sellar el compostaje, la tercera canastilla en orden descendente, es decir la canasta dispuesta cerca al suelo será la canastilla sin perforaciones,  que estará vacía para recepcionar el humus* filtrado en forma de líquida del suelo y las lombrices que bajan por entre la malla, que deben ser nuevamente dispuestas en la parte superior de la torre de lombricultivo*.
+</string>
+
+<string name="Abono_foliar">
+Insumos:\n
+•\tAgua.\n
+•\tOrina humana.\n
+•\tEnvase con capacidad de un litro.\n
+Instrucciones: \n
+A una porción de orina agregue una porción de igual cantidad de agua, cierre en un envase hermético y deje concentrar durante quince días; luego de este tiempo diluya el purín* en otro porción mayor o igual de agua y aplique en el follaje y suelo del cultivo. Este abono no acidifica* ni afecta la actividad microbiana de la tierra.
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="plague1">
+
+Nombre científico: Aphis fabae.\n
+Afectación: Chupador de la savia.\n\n
+    Planta pesticida: Ajenjo\n
+    Principio activo: Cineol y tuyona. \n
+    Formula y dosis: Macerar en un litro de agua 3 puños de hojas, tamizar y rociar. \n\n
+    Planta pesticida: Ajo\n
+    Principio activo: Alina, alicina, cicloide de alitina y disulfato de dialil. \n
+    Formula y dosis: 100 gramos de ajo machacados en un litro de agua, tamizar y rociar. \n\n
+</string>
+<string name="plague2">
+
+Nombre científico: Derocera reticulatum.\n
+Afectación: Masticador de follaje.\n\n
+    Planta pesticida: Ajenjo\n
+    Principio activo: Cineol y tuyona. \n
+    Formula y dosis: Macerar en un litro de agua 3 puños de hojas, tamizar y rociar. \n\n
+    Planta pesticida: Arena o piedras pequeñas\n
+    Principio activo: No aplica. \n
+    Formula y dosis: Cubrir la superficie de la tierra para alejar la humedad de la babosa de la tierra. \n\n
+</string>
+<string name="plague3">
+
+Nombre científico: Diatraea saccharalis.\n
+Afectación: Perforador del tallo.\n\n
+    Planta pesticida: Ajo\n
+    Principio activo: Alina, alicina, cicloide de alitina y disulfato de dialil. \n
+    Formula y dosis: 100 gramos de ajo machacados en un litro de agua, tamizar y rociar. \n\n
+</string>
+<string name="plague4">
+
+Nombre científico: Spodoptera frugiperda.\n
+Afectación: Comedor de follaje.\n\n
+    Planta pesticida: Borrachero\n
+    Principio activo: Atropina, hiosciamina, meteloidina, daturina. \n
+    Formula y dosis: En infusión, se prepara un kilo de hojas en 5 litros de agua. \n\n
+
+</string>
+<string name="plague5">
+
+Nombre científico: Atta cephalotes.\n
+Afectación: Cortador de follaje.\n\n
+    Planta pesticida: Canavalia o frijol\n
+    Principio activo: Canavalina. \n
+    Formula y dosis: Se cerca el cultivo con esta planta para que la corten las hormigas y las lleven a los hormigueros donde, luego de su descomposición, expele un gas que actúa como fungicida. \n\n
+
+</string>
+<string name="plague6">
+
+Nombre científico: Bemisia tabaci.\n
+Afectación: Chupador de hojas.\n\n
+    Planta pesticida: Caléndula\n
+    Principio activo: Caléndulina. \n
+    Formula y dosis: Sembrar intercalada junto con la hierbabuena para proteger los cultivos. \n\n
+    Planta pesticida: Ajenjo\n
+    Principio activo: Cineol y tuyona. \n
+    Formula y dosis: Macerar en un litro de agua 3 puños de hojas, tamizar y rociar. \n\n
+
+</string>
+<string name="plague7">
+
+Nombre científico: Hedylepta indicata.\n
+Afectación: Se alimenta de los  frutos y hojas.\n\n
+    Planta pesticida: Artemisa\n
+    Principio activo: Ciñelo. \n
+    Formula y dosis: Cercar los cultivos con esta planta, teniendo cuidado de los animales domésticos, pues, es tóxica. \n\n
+
+</string>
+<string name="plague8">
+
+Nombre científico: Helicoverpa zea.\n
+Afectación: Se alimenta de los  frutos.\n\n
+    Planta pesticida: Muña\n
+    Principio activo: Mentol, mentola. \n
+    Formula y dosis: Se prepara en infusión y aplica sobre la planta o puede quemarla para alejar los insectos. \n\n
+
+</string>
+<string name="plague9">
+
+Nombre científico: Nematodo.\n
+Afectación: Quistes en las raíces, además se alimenta de la materia orgánica del suelo.\n\n
+    Planta pesticida: Diente de león\n
+    Principio activo: Saponinas, taninos, insulina. \n
+    Formula y dosis: Siembra intercalada. \n\n
+    Planta pesticida: Caléndula\n
+    Principio activo: Caléndulina. \n
+    Formula y dosis: Sembrar intercalada junto con la hierbabuena para proteger los cultivos. \n\n
+</string>
+<string name="plague10">
+
+Nombre científico: Tineola bisselliella.\n
+Afectación: Se alimenta de la corteza de los árboles, el néctar de las flores y las plantas.\n\n
+    Planta pesticida: Albahaca\n
+    Principio activo: Linalol, estregol, leneol, alcanfor. \n
+    Formula y dosis: Cultivar la planta de manera asociada (intercalada) a las otras plantas para repeler las polillas. \n\n
+
+</string>
+<string name="plague11">
+
+Nombre científico: Ancognatha spp.\n
+Afectación: Arrasa con las raíces de las plantas.\n\n
+    Planta pesticida: Rábano picante\n
+    Principio activo: Fenil, etil, glucosinolato. \n
+    Formula y dosis: Siembra intercalada, expele un gas que debilita la chisa, para ser atacada por los organismos benéficos. \n\n
+
+</string>
+
+    <string-array name="glosario">
+        <item>Anión</item>
+        <item>Asfixia radicular</item>
+        <item>Catión</item>
+        <item>C.I.C</item>
+        <item>Coloidal</item>
+        <item>Edafología</item>
+        <item>Foliar</item>
+        <item>Humus</item>
+        <item>Lombri-cultivo</item>
+        <item>Pedología</item>
+        <item>Purín</item>
+    </string-array>
+    <string-array name="glosarioDescription">
+        <item>Ion que tiene carga negativa y procede de un elemento negativo (Al-,Fe-).</item>
+        <item>El agua desplaza el aire de los poros por lo que la raíz de la planta no puede respirar por lo que el exceso de agua asfixia la planta, esto sucede porque no drena el suelo el excedente de agua.</item>
+        <item>Ion de carga positiva que procede de un elemento positivo (Ca++, Mg2+, K+, Na++).</item>
+        <item>Sigla que interpreta la capacidad de intercambio catiónico del suelo.</item>
+        <item>Partículas químicas del suelo con cargas positivas (catión) y negativas (anión).</item>
+        <item>Es el estudio de los suelos especializado en su fertilidad y economía hídrica.</item>
+        <item>Referente a hojas, el follaje serán las hojas de las plantas.</item>
+        <item>Materia orgánica de naturaleza coloidal.</item>
+        <item>Cultivo de lombrices para el consumo de la carne y/o la descomposición de la materia orgánica en humus.</item>
+        <item>Ciencia que estudia los suelos.</item>
+        <item>Especie de abono de naturaleza líquida.</item>
+    </string-array>
+
+    <string name="message">Se presentó un inconveniente ..</string>
+    <string name="biography">
+        \n*Fundación Hogares Juveniles Campesinos. (2010) Agricultura urbana. Bogotá: Lexus.\n
+        *Fundación Hogares Juveniles Campesinos. (2010) Granja Integral Autosuficiente. Bogotá: Lexus.\n
+        *Idea Books, S. A. (2007) Biblioteca de la agricultura. Barcelona: Lexus.\n
+
+    </string>
+
+
+    <!--<string name="titlePhase1">Fase sólida</string>
+    <string name="Phase1">Es la materia orgánica de naturaleza coloidal* que se descompone como humus, insumo primordial para la nutrición de las plantas. El suelo se describe por la aireación, la temperatura y el pH, y según la economía hídrica*, que puede variar entre arcilloso, arenoso, franco y/o limoso.</string>
+    <string name="titlePhase2">Fase líquida y gaseosa</string>
+    <string name="Phase2">Los poros del suelo corresponden a un 50\u0025 de aire (O2) y 50\u0025 de agua (H2O), y su ausencia o exceso pueden ocasionar asfixia radicular*, lo que limita la respiración de las raíces de las plantas.</string>
+    <string name="titlePhase3">Química del suelo</string>
+    <string name="Phase3">La cual se remite a el intercambio químico de los minerales disponibles, dada la capacidad de retener y liberar cationes* (C.I.C)*, por la adsorción de los nutrientes en el agua del suelo, para ser absorbidos por las plantas por medio de las raíces. Se evalúa por el nivel del pH que deriva entre la salinidad del suelo que lo hace alcalino por la deficiencia de agua para absorber los nutrientes por la planta y la abundancia de agua que lava los nutrientes del suelo que no son absorbidos por las raíces y lo hace acido</string>-->
+</resources>
