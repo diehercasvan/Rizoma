@@ -13,10 +13,13 @@
     <string name="option0_4">Glosario</string>
     <string name="option0_5">Bibliografía</string>
     <string name="option1_1">Residuos sólidos</string>
-    <string name="option1_2">Tizas</string>
+
     <string name="option1_3">Recirculadora D-C</string>
-    <string name="option2">Información general </string>
-    <string name="option2_1">Créditos</string>
+    <string name="option2">Otros </string>
+    <string name="option2_1">Tizas</string>
+    <string name="option3">Información general </string>
+    <string name="option3_2">Créditos</string>
+    <string name="option3_1">Contáctenos</string>
 
     <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: LoremIpsum</string>
     <string name="action_previous">Previous</string>

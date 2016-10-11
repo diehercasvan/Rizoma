@@ -193,12 +193,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 menu_item_project = new Menu_Item_Project(5, 4, false);
                 break;
             case R.id.nav_option1_2:
-                menu_item_project = new Menu_Item_Project(6, 3, false);
-                break;
-            case R.id.nav_option1_3:
+
                 Toast.makeText(this, "Selección disponible próximamente ", Toast.LENGTH_LONG).show();
                 return true;
             case R.id.nav_option2_1:
+                menu_item_project = new Menu_Item_Project(6, 3, false);
+                break;
+            case R.id.nav_option3_1:
+                General.sendEmail();
+                return true;
+            case R.id.nav_option3_2:
                 menu_item_project = new Menu_Item_Project(8, 2, false);
                 break;
 

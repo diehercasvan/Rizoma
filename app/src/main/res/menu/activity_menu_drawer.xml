@@ -35,12 +35,9 @@
                 android:id="@+id/nav_option1_1"
                 android:icon="@drawable/nuevas_t"
                 android:title="@string/option1_1" />
+
             <item
                 android:id="@+id/nav_option1_2"
-                android:icon="@drawable/nuevas_t"
-                android:title="@string/option1_2" />
-            <item
-                android:id="@+id/nav_option1_3"
                 android:icon="@drawable/nuevas_t"
                 android:title="@string/option1_3" />
 
@@ -51,8 +48,21 @@
         <menu>
             <item
                 android:id="@+id/nav_option2_1"
-                android:icon="@drawable/ic_face"
+                android:icon="@drawable/nuevas_t"
                 android:title="@string/option2_1" />
+
+        </menu>
+    </item>
+    <item android:title="@string/option3">
+        <menu>
+            <item
+                android:id="@+id/nav_option3_1"
+                android:icon="@drawable/ic_local_post_office"
+                android:title="@string/option3_1" />
+            <item
+                android:id="@+id/nav_option3_2"
+                android:icon="@drawable/ic_face"
+                android:title="@string/option3_2" />
 
         </menu>
     </item>

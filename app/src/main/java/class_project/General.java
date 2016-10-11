@@ -2,9 +2,12 @@ package class_project;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -112,4 +115,28 @@ public class General {
                     R.drawable.ic_menu_send,
                     R.drawable.ic_menu_slideshow,
             };
+
+    public static void sendEmail(){
+
+
+        String[] TO = {"acina2@outlook.com"};
+        String[] CC = {""};
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+
+        emailIntent.setData(Uri.parse("mailto:"));
+        emailIntent.setType("text/plain");
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, TO);
+        emailIntent.putExtra(Intent.EXTRA_CC, CC);
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Asunto: Contacto desde el Aplicativo Rizoma para  nuevos contenidos ");
+        emailIntent.putExtra(Intent.EXTRA_TEXT, "Me gustaría aportar contenido al aplicativo ");
+
+        try {
+            ACTIVITY.startActivity(Intent.createChooser(emailIntent, "Send mail..."));
+            //ACTIVITY.finish();
+
+        }
+        catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(ACTIVITY, "There is no email client installed.", Toast.LENGTH_SHORT).show();
+        }
+    }
 }
